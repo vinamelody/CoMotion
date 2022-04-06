@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var particleSystem = ParticleSystem()
+    @State private var motionHandler = MotionManager()
     
     var body: some View {
         TimelineView(.animation) { timeline in
@@ -17,6 +18,7 @@ struct ContentView: View {
                 particleSystem.update(date: timelineDate)
                 
                 context.blendMode = .plusLighter
+                particleSystem.center = UnitPoint(x: 0.5 + motionHandler.roll, y: 0.5 + motionHandler.pitch)
                 
                 for particle in particleSystem.particles {
                     var contextCopy = context
