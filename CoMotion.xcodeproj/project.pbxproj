@@ -11,6 +11,8 @@
 		5A4125B727FDD04100EB4352 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4125B627FDD04100EB4352 /* ContentView.swift */; };
 		5A4125B927FDD04500EB4352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4125B827FDD04500EB4352 /* Assets.xcassets */; };
 		5A4125BC27FDD04500EB4352 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4125BB27FDD04500EB4352 /* Preview Assets.xcassets */; };
+		5A4125C327FDD08900EB4352 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4125C227FDD08900EB4352 /* Particle.swift */; };
+		5A4125C527FDD09400EB4352 /* ParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4125C427FDD09400EB4352 /* ParticleSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5A4125B627FDD04100EB4352 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A4125B827FDD04500EB4352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A4125BB27FDD04500EB4352 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A4125C227FDD08900EB4352 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
+		5A4125C427FDD09400EB4352 /* ParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				5A4125B427FDD04100EB4352 /* CoMotionApp.swift */,
 				5A4125B627FDD04100EB4352 /* ContentView.swift */,
+				5A4125C227FDD08900EB4352 /* Particle.swift */,
+				5A4125C427FDD09400EB4352 /* ParticleSystem.swift */,
 				5A4125B827FDD04500EB4352 /* Assets.xcassets */,
 				5A4125BA27FDD04500EB4352 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4125C527FDD09400EB4352 /* ParticleSystem.swift in Sources */,
 				5A4125B727FDD04100EB4352 /* ContentView.swift in Sources */,
+				5A4125C327FDD08900EB4352 /* Particle.swift in Sources */,
 				5A4125B527FDD04100EB4352 /* CoMotionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
