@@ -18,7 +18,7 @@ struct ContentView: View {
                 particleSystem.update(date: timelineDate)
                 
                 context.blendMode = .plusLighter
-                particleSystem.center = UnitPoint(x: 0.5 + motionHandler.roll, y: 0.5 + motionHandler.pitch)
+                particleSystem.center = UnitPoint(x: 0.5 + motionHandler.roll, y: 0.5 + motionHandler.pitch * -1.0)
                 
                 for particle in particleSystem.particles {
                     var contextCopy = context
